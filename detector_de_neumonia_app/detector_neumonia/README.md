@@ -17,8 +17,8 @@ Este proyecto utiliza un modelo de aprendizaje profundo para clasificar radiogra
 ## 📦 Instalación local  
 1. Clona este repositorio:  
    ```bash
-   git clone https://github.com/ramiroperata/deteccion_de_neumonia_con_ML
-   cd deteccion_de_neumonia_con_ML
+   git clone https://github.com/ramiroperata/deteccion_de_neumonia_con_ML/tree/main/detector_de_neumonia_app/detector_neumonia
+   cd detector_neumonia
    ```  
 
 2. Instala las dependencias:  
