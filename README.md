@@ -31,8 +31,8 @@ Este repositorio contiene el desarrollo completo de un sistema de detección de 
 ## 🧠 Entrenamiento del Modelo  
 El modelo fue entrenado con el framework `fastai`, utilizando una arquitectura preentrenada (`ResNet`) como base. Pasos principales:  
 1. Preprocesamiento de datos e imágenes.  
-2. Fine-tuning del modelo con métricas de precisión y recall.  
-3. Guardado del modelo final como `model.pth`.  
+2. Fine-tuning del modelo con métricas.  
+3. Guardado del modelo final como `pneumonia_detector.pkl`.  
 
 ## 🚀 Despliegue de la Aplicación  
 La aplicación interactiva se encuentra en la carpeta `app/` y permite a los usuarios cargar imágenes para obtener predicciones en tiempo real.  
