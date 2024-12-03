@@ -1,0 +1,5 @@
+streamlit
+torch
+fastai
+timm
+pillow
