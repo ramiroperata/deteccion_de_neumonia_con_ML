@@ -1,11 +1,10 @@
 
-# 🩺 Proyecto de Detección de Neumonía  
+# 🩺 Proyecto de detección de neumonía  
 
-Este repositorio contiene el desarrollo completo de un sistema de detección de neumonía basado en imágenes de radiografías de tórax, utilizando técnicas de ciencia de datos e inteligencia artificial.  
+Este repositorio contiene el desarrollo completo de un sistema de detección de neumonía basado en imágenes de radiografías de tórax, utilizando una red neuronal convolucional.  
 
 ## 🛠️ Componentes del Proyecto  
-1. **Exploración y Análisis de Datos**  
-   - Análisis descriptivo de las imágenes médicas.  
+1. **Exploración y transformación de datos**   
    - Procesamiento de datos y preprocesamiento de imágenes.  
 
 2. **Entrenamiento del Modelo**  
@@ -18,22 +17,16 @@ Este repositorio contiene el desarrollo completo de un sistema de detección de 
 
 ## 📂 Estructura del Repositorio  
 ```
-📁 raiz-del-repositorio  
-├── 📂 data/                 # Datos originales y preprocesados  
-├── 📂 notebooks/            # Notebooks de análisis y entrenamiento  
+📁 deteccion_de_neumonia_con_ML 
+├── 📂 notebook/             # Notebook de análisis y entrenamiento  
 ├── 📂 app/                  # Código y dependencias de la aplicación  
 │   ├── app.py               # Código de la aplicación Streamlit  
 │   ├── requirements.txt     # Dependencias de la aplicación  
-├── 📂 models/               # Modelos entrenados  
+├── 📂 model/                # Modelo entrenado
 ├── 📜 README.md             # Este archivo  
 └── 📜 LICENSE               # Información sobre la licencia  
 ```  
 
-## 🔍 Exploración y Análisis de Datos  
-Los datos utilizados en este proyecto provienen de un conjunto de imágenes médicas. En la carpeta `notebooks/` encontrarás:  
-- Exploración inicial de los datos.  
-- Visualización de imágenes y distribución de clases.  
-- Técnicas de aumento de datos para mejorar la generalización del modelo.  
 
 ## 🧠 Entrenamiento del Modelo  
 El modelo fue entrenado con el framework `fastai`, utilizando una arquitectura preentrenada (`ResNet`) como base. Pasos principales:  
@@ -47,10 +40,10 @@ La aplicación interactiva se encuentra en la carpeta `app/` y permite a los usu
 Para más detalles sobre la aplicación, consulta el [README de la aplicación](app/README.md).  
 
 ## 📊 Resultados  
-El modelo alcanzó una precisión del XX% en el conjunto de prueba. Las métricas clave se documentan en el notebook de evaluación dentro de la carpeta `notebooks/`.  
+El modelo alcanzó una f1 score del 98% en el conjunto de prueba. Las métricas clave se documentan en el notebook de evaluación dentro de la carpeta `notebooks/`.  
 
 ## 🤝 Contribuciones  
-¡Contribuciones y sugerencias son bienvenidas! Por favor, abre un **issue** o envía un **pull request**.  
+¡Contribuciones y sugerencias son bienvenidas! Por favor, abrí un **issue** o envia un **pull request**.  
 
 ## 📜 Licencia  
-Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.  
+Este proyecto está bajo la licencia Apache 2.0. Consulta el archivo [LICENSE](LICENSE) para más detalles.  
