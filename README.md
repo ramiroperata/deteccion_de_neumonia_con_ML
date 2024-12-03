@@ -1,5 +1,5 @@
 
-# 🩺 Detección de Neumonía con Inteligencia Artificial  
+# 🩺 Detección de neumonía con inteligencia artificial  
 
 Este proyecto utiliza un modelo de aprendizaje profundo para clasificar radiografías de tórax y determinar si muestran signos de neumonía. La aplicación está implementada con **Streamlit** y puede desplegarse fácilmente en **Hugging Face Spaces**.  
 
