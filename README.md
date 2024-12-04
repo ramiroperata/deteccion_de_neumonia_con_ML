@@ -2,6 +2,7 @@
 # 🩺 Proyecto de detección de neumonía  
 
 Este repositorio contiene el desarrollo completo de un sistema de detección de neumonía basado en imágenes de radiografías de tórax, utilizando una red neuronal convolucional.  
+*[Probalo acá](https://huggingface.co/spaces/ramiropm/detector_neumonia)*
 
 ## 🛠️ Componentes del Proyecto  
 1. **Exploración y transformación de datos**   
